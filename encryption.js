@@ -80,8 +80,8 @@ export function encryptData(data) {
     'customerip': '127.0.0.1',
     'dob': '1995-01-01',
     'success_url':encodeURIComponent('https://gw-testing.paymentechnologies.co.uk/ptv2_dev_server_test/success.php'),
-    'fail_url':encodeURIComponent('https://gw-testing.paymentechnologies.co.uk/ptv2_dev_server_test/success.php'),
-    'notify_url':encodeURIComponent('https://gw-testing.paymentechnologies.co.uk/ptv2_dev_server_test/success.php')
+    'fail_url':encodeURIComponent('https://gw-testing.paymentechnologies.co.uk/ptv2_dev_server_test/fail.php'),
+    'notify_url':encodeURIComponent('https://gw-testing.paymentechnologies.co.uk/ptv2_dev_server_test/notify.php')
   }
   
 
